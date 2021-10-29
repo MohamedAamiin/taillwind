@@ -1,0 +1,164 @@
+::root{
+   --text-color:#ccc;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+body{
+    background: #333;
+    padding-left: 35rem;
+}
+header{
+    width: 35rem;
+    background: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    bottom: 0;
+}
+header img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+    border:0.5rem solid #fff;
+}
+header h1{
+    font-size: 4rem;
+    color: #ccc;
+}
+header h4{
+    color: white;
+    font-size: 2rem;
+}
+header ul {
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #ccc;
+    background: #333;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    display: block;
+    margin: 1rem 0;
+    border-radius:5px;
+    border:0.5px solid white;
+}
+header ul li a:hover{
+    background: #999;
+    color:#111;
+}
+section{
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 10rem;
+}
+section h3{
+    color: #ccc;
+    font-size: 2rem;
+}
+section h2{
+    color: #ccc;
+    font-size: 4rem;
+}
+section p{
+    font-size: 1.5rem;
+    color: #ccc;
+}
+.skills h4{
+    font-size: 3rem;
+    color: #ccc;
+}
+.skills .box-container{
+      flex-flow:row;
+      display: flex;
+}
+.skills .box-container .skill{
+    background-color: #102030;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    border:0.5rem solid #fff ;
+}
+.skill span{
+    font-size: 2rem;
+    color: #ccc;
+}
+.skill h5{
+    color: #fff;
+    font-size: 3rem;
+}
+section{
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 10rem;
+}
+.container{
+    background: #fff;
+    width: 55%;
+    min-width: 450px;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    left: 60%;
+    top: 50%;
+    padding: 50px 30px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0, alpha);
+    border-radius: 9px;
+}
+.image-container{
+    width: 90%;
+    margin: 0 auto 30px auto;
+}
+.image-container img{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    max-height: 400px;
+    margin: auto;
+}
+figcaption{
+    margin: 20px 0 30px 0;
+    text-align: center;
+    color: white;
+}
+input[type="file"]{
+    display:none;
+}
+label{
+    display: block;
+    position: relative;
+    background-color: #1c72fd;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    width: 280px;
+    padding: 18px 0;
+    transition: 0.5s;
+    border-radius:59px;
+    margin: auto;
+    cursor: pointer;
+}
+label:hover{
+    background-color:greenyellow;
+    color:blue;
+}
